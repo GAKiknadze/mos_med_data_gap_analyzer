@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "MosMedData Gap Analyzer"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "pydicom>=3.0.1",
+]
 
 [dependency-groups]
 dev = [
